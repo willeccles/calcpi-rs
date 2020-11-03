@@ -1,8 +1,6 @@
 use std::env;
 use std::thread;
 
-extern crate num_cpus;
-
 fn calcinrange(start: u64, end: u64, id: u64) -> f64 {
     let mut cycle = start;
     let s: f64 = 2.0 + (start as f64 * 2.0);
